@@ -15,7 +15,7 @@ dependencies {
             url 'https://raw.githubusercontent.com/ryuunoakaihitomi/maven-repository/master'
         }
     }
-	...
+    ...
 }
 
 ```
