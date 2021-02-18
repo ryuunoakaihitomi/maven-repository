@@ -22,3 +22,5 @@ dependencies {
 # Including libraries
 
 * [ReToast](https://github.com/ryuunoakaihitomi/ReToast)
+
+* [PowerAct](https://github.com/ryuunoakaihitomi/PowerAct)
