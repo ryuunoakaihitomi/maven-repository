@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.5",
-      "buildId": "5qlw2zbpjveyzgo6zygnihirxq"
+      "buildId": "67dzt5cxgfelhddyyalvef66ji"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "poweract-1.4.0.aar",
           "url": "poweract-1.4.0.aar",
-          "size": 53067,
-          "sha512": "dab0c3021f43350df336dd00632a07f5087e1ac28ba0f7a6b05a24550661f2a10e2616d3cf5c5c19fc134fef4c3579d89df2f77119cf9f28e171012bff08bd0e",
-          "sha256": "e3bfdfdb47f3a88f621a1545ca5d0facf0f1158807bf475f1d0428ecaada952e",
-          "sha1": "9fe09a64e49bd65daf75221100b42b41e306b3a3",
-          "md5": "df7749a80025bebacd7575ad78b898e4"
+          "size": 53719,
+          "sha512": "85c1eb34f4149f41edf73df7afb7856af928450b9f2f589676eb540a33905d37674fa860eebd5b88fb063888abc180c9e7a5ec1b39ee5bb89bf75a06e3b6907c",
+          "sha256": "a5fa3d8dd012ff6e4ce614b93c61af45c6eb98d6f54a0c7d602cc04559bc0b34",
+          "sha1": "dea3af90a2b6b442f67684810b00dd12ab74cc15",
+          "md5": "7ef8987179bb12207b9361f6001202e1"
         }
       ]
     },
@@ -47,11 +47,11 @@
         {
           "name": "poweract-1.4.0.aar",
           "url": "poweract-1.4.0.aar",
-          "size": 53067,
-          "sha512": "dab0c3021f43350df336dd00632a07f5087e1ac28ba0f7a6b05a24550661f2a10e2616d3cf5c5c19fc134fef4c3579d89df2f77119cf9f28e171012bff08bd0e",
-          "sha256": "e3bfdfdb47f3a88f621a1545ca5d0facf0f1158807bf475f1d0428ecaada952e",
-          "sha1": "9fe09a64e49bd65daf75221100b42b41e306b3a3",
-          "md5": "df7749a80025bebacd7575ad78b898e4"
+          "size": 53719,
+          "sha512": "85c1eb34f4149f41edf73df7afb7856af928450b9f2f589676eb540a33905d37674fa860eebd5b88fb063888abc180c9e7a5ec1b39ee5bb89bf75a06e3b6907c",
+          "sha256": "a5fa3d8dd012ff6e4ce614b93c61af45c6eb98d6f54a0c7d602cc04559bc0b34",
+          "sha1": "dea3af90a2b6b442f67684810b00dd12ab74cc15",
+          "md5": "7ef8987179bb12207b9361f6001202e1"
         }
       ]
     }
