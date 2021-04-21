@@ -1,4 +1,4 @@
-# Ryuunoakaihitomi Maven Repository
+# My Maven Repository
 
 # Background
 Since [jcenter is shutting down](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/), I need a new public maven repository to store my library publications.
