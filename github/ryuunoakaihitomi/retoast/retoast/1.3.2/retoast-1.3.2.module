@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.5",
-      "buildId": "5v6jvrq5cbb4dfye6tcido2mta"
+      "buildId": "vy5e32xrnnhfpe7lrrlroclbbq"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "retoast-1.3.2.aar",
           "url": "retoast-1.3.2.aar",
-          "size": 7407,
-          "sha512": "814795d145034b49b0290c6893de6a7d21fda3d779f954a4567197f0d8a7314ec1d17a65bb02602e00f20c7013d036ec6fdd8d273ecb0a599a9b2c7624150c57",
-          "sha256": "f814fc61ff9be6356bbaecd96c5dc3b28c9c8813622c5e6b5d77f0d0eebc0faf",
-          "sha1": "34c19d1458a9a60e88f277d8acf7eb1687b3a853",
-          "md5": "3afcfb4da22924e7225a09e6d2c4be8b"
+          "size": 7414,
+          "sha512": "caa387a5ade18de68745f7590f5ab92a97f6c670e3779a37cb189b7278c47b3fea8d8b3bdbe2123df0795831893caa1fafbbc0938bae8f3c3a289a18c793f456",
+          "sha256": "a9799cfc2d846000d704fece62603402b71c8b378f7cd9a0db39b66831c4059f",
+          "sha1": "1a5de70c83b8e625fc7c7d067f20e2ded594895d",
+          "md5": "4d4e34562b8675d299609cabeef69cb4"
         }
       ]
     },
@@ -47,11 +47,11 @@
         {
           "name": "retoast-1.3.2.aar",
           "url": "retoast-1.3.2.aar",
-          "size": 7407,
-          "sha512": "814795d145034b49b0290c6893de6a7d21fda3d779f954a4567197f0d8a7314ec1d17a65bb02602e00f20c7013d036ec6fdd8d273ecb0a599a9b2c7624150c57",
-          "sha256": "f814fc61ff9be6356bbaecd96c5dc3b28c9c8813622c5e6b5d77f0d0eebc0faf",
-          "sha1": "34c19d1458a9a60e88f277d8acf7eb1687b3a853",
-          "md5": "3afcfb4da22924e7225a09e6d2c4be8b"
+          "size": 7414,
+          "sha512": "caa387a5ade18de68745f7590f5ab92a97f6c670e3779a37cb189b7278c47b3fea8d8b3bdbe2123df0795831893caa1fafbbc0938bae8f3c3a289a18c793f456",
+          "sha256": "a9799cfc2d846000d704fece62603402b71c8b378f7cd9a0db39b66831c4059f",
+          "sha1": "1a5de70c83b8e625fc7c7d067f20e2ded594895d",
+          "md5": "4d4e34562b8675d299609cabeef69cb4"
         }
       ]
     }
