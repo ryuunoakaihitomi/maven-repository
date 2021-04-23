@@ -1,0 +1,59 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "github.ryuunoakaihitomi.retoast",
+    "module": "retoast",
+    "version": "1.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "vwz5ubpo2bhrfd53rgjhzljqjy"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "retoast-1.4.0.aar",
+          "url": "retoast-1.4.0.aar",
+          "size": 7258,
+          "sha512": "27cd92dc96feba8fc71f7ae915cfeafae50f8d73676e1ba1cb37ab39d807b8b1f5761faa902b183c0183fca1d0c706cdb625de632c2c42816a7abb468ad1e2e7",
+          "sha256": "0358e77426f0951d1d5a6fd77f57ec3de0a4c93ee0882948fe8198f75e97944a",
+          "sha1": "8143460b70e2a7e1c8456ace63d9083aaca3ec41",
+          "md5": "03ab0e986cd93090184acefa9dc1f5b8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "retoast-1.4.0.aar",
+          "url": "retoast-1.4.0.aar",
+          "size": 7258,
+          "sha512": "27cd92dc96feba8fc71f7ae915cfeafae50f8d73676e1ba1cb37ab39d807b8b1f5761faa902b183c0183fca1d0c706cdb625de632c2c42816a7abb468ad1e2e7",
+          "sha256": "0358e77426f0951d1d5a6fd77f57ec3de0a4c93ee0882948fe8198f75e97944a",
+          "sha1": "8143460b70e2a7e1c8456ace63d9083aaca3ec41",
+          "md5": "03ab0e986cd93090184acefa9dc1f5b8"
+        }
+      ]
+    }
+  ]
+}
