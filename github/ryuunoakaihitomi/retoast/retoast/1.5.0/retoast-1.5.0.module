@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7.1",
-      "buildId": "jbtcvlwqcbg25oapjc7ogmc7ua"
+      "buildId": "khq3beysvfdxzlgkpavetflynm"
     }
   },
   "variants": [
@@ -27,11 +27,11 @@
         {
           "name": "retoast-1.5.0.aar",
           "url": "retoast-1.5.0.aar",
-          "size": 6271,
-          "sha512": "ea26c22fbddc6db2b6269febc862c2472f98d59809521d626ba393f53b73ef9eff6873eb9acbac270183a0ef3e80889354366714d4b8dbb5c15f6cc391d2575f",
-          "sha256": "419026bed9604e30f34a8e8ad4627a73d0a4d0b6d7de781bdfcca5050945e336",
-          "sha1": "5cf5f3388340839a33e3c88da598fb4812cbd95c",
-          "md5": "ee642a18db2f5e22607f0290cea4a3ca"
+          "size": 6265,
+          "sha512": "53ec6fd05ed174646d08bb6c7aee3521e4b7ed7d95b5ce6fd3f5fe755678e1e7b6dd0ae878f23ed458113bc5b0597b4b9700d83f1ab65622d306132cbe7bf8ba",
+          "sha256": "c813c1a6c166179baa383e125c39f762f7e6c7ab83eb17a8d152290017a8d889",
+          "sha1": "7eaf7c8c3ab4fc62152fdc069d1ea011ef5968ee",
+          "md5": "35f314bbfe92ab6638bc873592d81e44"
         }
       ]
     },
@@ -47,11 +47,11 @@
         {
           "name": "retoast-1.5.0.aar",
           "url": "retoast-1.5.0.aar",
-          "size": 6271,
-          "sha512": "ea26c22fbddc6db2b6269febc862c2472f98d59809521d626ba393f53b73ef9eff6873eb9acbac270183a0ef3e80889354366714d4b8dbb5c15f6cc391d2575f",
-          "sha256": "419026bed9604e30f34a8e8ad4627a73d0a4d0b6d7de781bdfcca5050945e336",
-          "sha1": "5cf5f3388340839a33e3c88da598fb4812cbd95c",
-          "md5": "ee642a18db2f5e22607f0290cea4a3ca"
+          "size": 6265,
+          "sha512": "53ec6fd05ed174646d08bb6c7aee3521e4b7ed7d95b5ce6fd3f5fe755678e1e7b6dd0ae878f23ed458113bc5b0597b4b9700d83f1ab65622d306132cbe7bf8ba",
+          "sha256": "c813c1a6c166179baa383e125c39f762f7e6c7ab83eb17a8d152290017a8d889",
+          "sha1": "7eaf7c8c3ab4fc62152fdc069d1ea011ef5968ee",
+          "md5": "35f314bbfe92ab6638bc873592d81e44"
         }
       ]
     }
