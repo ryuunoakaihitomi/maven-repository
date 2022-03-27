@@ -1,11 +1,77 @@
 # My Maven Repository
 
-# Background
-Since [jcenter is shutting down](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/), I need a new public maven repository to store my library publications.
-The most common choice is maven central or jitpack, but I prefer to choice a platform with more freedom.
-So here it is.
+# ⚠ TIME TO MIGRATE TO [GITHUB PACKAGES](https://github.com/features/packages).
 
-# Import
+This git repository used to store artifacts will no longer be available. The lastest version of artifacts are removed to remind users to read this README.md again.
+
+# Usage
+
+** 💡 Remember to replace `<library name>` and `<import statement>` to the correct value according to the documentation of the library you want to import.**
+
+(If you think you are using a relatively new Android Studio, you can just read the next section)
+
+Import the library in app(module-level) build.gradle:
+
+```groovy
+dependencies {
+    repositories {
+        // 👇
+        maven {
+            url 'https://maven.pkg.github.com/ryuunoakaihitomi/<library name>'
+            credentials {
+                username = 'ryuunoakaihitomi'
+                password = 'ghp_extQ2D8b8NztcmmUyMzngcthP2VYJm0cEGS\u0020'
+            }
+        }
+    }
+    <import statement> // 👈
+    // ...
+}
+```
+
+### For Android studio Arctic Fox 2020.3.1+
+
+If you encountered this error,
+> Build was configured to prefer settings repositories over project repositories but repository 'maven' was added by build file 'app\build.gradle'
+
+you have to perform it in two steps...
+
+① Import the maven repository in settings.gradle:
+
+```groovy
+dependencyResolutionManagement {
+    repositories {
+        // ...
+        // 👇
+        maven {
+            url 'https://maven.pkg.github.com/ryuunoakaihitomi/<library name>'
+            credentials {
+                username = 'ryuunoakaihitomi'
+                password = 'ghp_extQ2D8b8NztcmmUyMzngcthP2VYJm0cEGS\u0020'
+            }
+        }
+    }
+}
+```
+
+② Import the library in app(module-level) build.gradle
+
+```groovy
+dependencies {
+    // ...
+    <import statement> // 👈
+}
+```
+
+# Including libraries
+
+* [ReToast](https://github.com/ryuunoakaihitomi/ReToast)
+* [PowerAct](https://github.com/ryuunoakaihitomi/PowerAct)
+
+# Legacy Usage
+
+This was the previous usage of this repository, which is now deprecated.
+
 ```groovy
 
 dependencies {
@@ -18,35 +84,3 @@ dependencies {
 }
 
 ```
-
-# (For users in Mainland China) 导入
-注意：所托管的库的更旧的版本之前是放在`jcenter()`上的。如果嫌麻烦不导入此Maven仓库而直接导入开源库的话，也可能导入成功，只不过导入的将是**历史版本**。
-
-由于Github Raw在中国大陆（除香港、澳门外）被屏蔽，无法直接使用上述配置中的链接访问仓库。可以使用以下方式：
-
-* 前往其他地区使用本仓库（自行查询解决方法）
-
-* 使用特殊的网络连接方式并且应用在Gradle上（自行查询解决方法）
-
-* 将`raw.githubusercontent.com`替换成可以直接访问的Gihub Raw镜像服务，这里介绍一个暂时可用的服务，如果之后此服务不可用也可以自行查找其他同类服务并替换链接
-
-[FastGit](https://fastgit.org/) 它的Github Raw镜像为`raw.fastgit.org`，可将上述链接替换成`https://raw.fastgit.org/ryuunoakaihitomi/maven-repository/master`
-
-最后的导入代码如下：
-
-```groovy
-dependencies {
-    repositories {
-        maven {
-            // 注意看链接发生了变化
-            url 'https://raw.fastgit.org/ryuunoakaihitomi/maven-repository/master'
-        }
-    }
-    ...
-}
-```
-
-# Including libraries
-
-* [ReToast](https://github.com/ryuunoakaihitomi/ReToast)
-* [PowerAct](https://github.com/ryuunoakaihitomi/PowerAct)
