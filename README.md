@@ -6,7 +6,7 @@ This git repository used to store artifacts will no longer be available. The las
 
 # Usage
 
-** 💡 Remember to replace `<library name>` and `<import statement>` to the correct value according to the documentation of the library you want to import.**
+**💡 Remember to replace `<library name>` and `<import statement>` to the correct value according to the documentation of the library you want to import.**
 
 (If you think you are using a relatively new Android Studio, you can just read the next section)
 
