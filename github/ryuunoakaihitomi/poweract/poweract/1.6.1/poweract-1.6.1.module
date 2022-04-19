@@ -1,0 +1,58 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "github.ryuunoakaihitomi.poweract",
+    "module": "poweract",
+    "version": "1.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "poweract-1.6.1.aar",
+          "url": "poweract-1.6.1.aar",
+          "size": 52214,
+          "sha512": "6c2a518dffc15081d2a60c942a8638566fad94e889ac0043d9fb0d2b1ed91e2d2db2cfb37cd3ce20a5e77e810e18bfb27e0ec9866bec8e409c16ce9d8cbdbba3",
+          "sha256": "864a87e422eb44a4f8466e1c797bedc11f03725ea1971a11aebb55bcfecbd049",
+          "sha1": "b23e4f7d2e25db39fdab89f5330f26beba128a9a",
+          "md5": "149d1f8d57231e1ddba8afe95800f1d3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "poweract-1.6.1.aar",
+          "url": "poweract-1.6.1.aar",
+          "size": 52214,
+          "sha512": "6c2a518dffc15081d2a60c942a8638566fad94e889ac0043d9fb0d2b1ed91e2d2db2cfb37cd3ce20a5e77e810e18bfb27e0ec9866bec8e409c16ce9d8cbdbba3",
+          "sha256": "864a87e422eb44a4f8466e1c797bedc11f03725ea1971a11aebb55bcfecbd049",
+          "sha1": "b23e4f7d2e25db39fdab89f5330f26beba128a9a",
+          "md5": "149d1f8d57231e1ddba8afe95800f1d3"
+        }
+      ]
+    }
+  ]
+}
