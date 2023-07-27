@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.barteksc",
+    "module": "android-pdf-viewer",
+    "version": "zqy_mod_1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.barteksc",
+          "module": "pdfium-android",
+          "version": {
+            "requires": "zqy_mod_1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-pdf-viewer-zqy_mod_1.0.0.aar",
+          "url": "android-pdf-viewer-zqy_mod_1.0.0.aar",
+          "size": 75261,
+          "sha512": "844f7bb356a9f5f1d38eaf8930d7f8df89af396f8bfe7fdb3b3a202cf35122a15e36a48ac339817213efd828bd564f6010d379e18a3822247b76982092ed6ad5",
+          "sha256": "9d51407aae0ea44d5af628ddcb1a6b30d5019a887de5f5b0f5c079f07dbee172",
+          "sha1": "ca0f435b774019314ed4045b124ecc5bcd34fcf2",
+          "md5": "2cbc276ccc75055d4bd17d91ca54a3e1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.support",
+          "module": "support-compat",
+          "version": {
+            "requires": "28.0.0"
+          }
+        },
+        {
+          "group": "com.github.barteksc",
+          "module": "pdfium-android",
+          "version": {
+            "requires": "zqy_mod_1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-pdf-viewer-zqy_mod_1.0.0.aar",
+          "url": "android-pdf-viewer-zqy_mod_1.0.0.aar",
+          "size": 75261,
+          "sha512": "844f7bb356a9f5f1d38eaf8930d7f8df89af396f8bfe7fdb3b3a202cf35122a15e36a48ac339817213efd828bd564f6010d379e18a3822247b76982092ed6ad5",
+          "sha256": "9d51407aae0ea44d5af628ddcb1a6b30d5019a887de5f5b0f5c079f07dbee172",
+          "sha1": "ca0f435b774019314ed4045b124ecc5bcd34fcf2",
+          "md5": "2cbc276ccc75055d4bd17d91ca54a3e1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-pdf-viewer-zqy_mod_1.0.0-sources.jar",
+          "url": "android-pdf-viewer-zqy_mod_1.0.0-sources.jar",
+          "size": 57550,
+          "sha512": "6c6793db7b7f2a0102114f021d142d282eb8e56b399171c5d138eb6faed05d8dfa92b2d1bd4facf5fe3f2ee9b0113bfbc60a8b02c511f0972e7d9074dbb10c44",
+          "sha256": "9ae04c023c548db2ec02516fef2b7c1eeeecad0190d663a3c34e6d3b17aa0d89",
+          "sha1": "2820ea2a39f19bb0dfb42ae11acd837a83c360ab",
+          "md5": "8161743c63ad3a14a4dc725b6c83a813"
+        }
+      ]
+    }
+  ]
+}

@@ -51,3 +51,4 @@ dependencies {
 * [ReToast](https://github.com/ryuunoakaihitomi/ReToast)
 * [PowerAct](https://github.com/ryuunoakaihitomi/PowerAct)
 * [PdfiumAndroid](https://github.com/ryuunoakaihitomi/PdfiumAndroid)
+* [AndroidPdfViewer](https://github.com/ryuunoakaihitomi/AndroidPdfViewer)
