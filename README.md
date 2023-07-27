@@ -30,7 +30,7 @@ dependencies {
 
 * 将`raw.githubusercontent.com`替换成可以直接访问的Gihub Raw镜像服务，这里介绍一个暂时可用的服务，如果之后此服务不可用也可以自行查找其他同类服务并替换链接
 
-[FastGit](https://fastgit.org/) 它的Github Raw镜像为`raw.fastgit.org`，可将上述链接替换成`https://raw.fastgit.org/ryuunoakaihitomi/maven-repository/master`
+[Ghproxy](https://ghproxy.com/) ，可将上述链接替换成`https://ghproxy.com/https://raw.githubusercontent.com/ryuunoakaihitomi/maven-repository/master`
 
 最后的导入代码如下：
 
@@ -39,7 +39,7 @@ dependencies {
     repositories {
         maven {
             // 注意看链接发生了变化
-            url 'https://raw.fastgit.org/ryuunoakaihitomi/maven-repository/master'
+            url 'https://ghproxy.com/https://raw.githubusercontent.com/ryuunoakaihitomi/maven-repository/master'
         }
     }
     ...
@@ -50,3 +50,4 @@ dependencies {
 
 * [ReToast](https://github.com/ryuunoakaihitomi/ReToast)
 * [PowerAct](https://github.com/ryuunoakaihitomi/PowerAct)
+* [PdfiumAndroid](https://github.com/ryuunoakaihitomi/PdfiumAndroid)

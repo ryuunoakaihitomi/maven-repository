@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.barteksc",
+    "module": "pdfium-android",
+    "version": "zqy_mod_1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pdfium-android-zqy_mod_1.0.0.aar",
+          "url": "pdfium-android-zqy_mod_1.0.0.aar",
+          "size": 12716520,
+          "sha512": "56c7f673185d1d4b4f66926f30e933222eb200bb2318fd8562543685009180655d5573e23cee2ba336ce0dbd5b8a6d9394ba4db9aebb24c736dba55b79d7e32c",
+          "sha256": "856d2f92e02c409fac76a4c3475cea5b277f6ec4be90b7e8c878546472c48408",
+          "sha1": "014ddf39d4b5386676d40e9854d7d09008d71509",
+          "md5": "4d369fa16dadfce6aff704541fb13353"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pdfium-android-zqy_mod_1.0.0.aar",
+          "url": "pdfium-android-zqy_mod_1.0.0.aar",
+          "size": 12716520,
+          "sha512": "56c7f673185d1d4b4f66926f30e933222eb200bb2318fd8562543685009180655d5573e23cee2ba336ce0dbd5b8a6d9394ba4db9aebb24c736dba55b79d7e32c",
+          "sha256": "856d2f92e02c409fac76a4c3475cea5b277f6ec4be90b7e8c878546472c48408",
+          "sha1": "014ddf39d4b5386676d40e9854d7d09008d71509",
+          "md5": "4d369fa16dadfce6aff704541fb13353"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pdfium-android-zqy_mod_1.0.0-sources.jar",
+          "url": "pdfium-android-zqy_mod_1.0.0-sources.jar",
+          "size": 6980,
+          "sha512": "e1c3805f5edf0db97a6112b337ee8eff784cec916c350b46f780f09f11de8a3dfb01bde19e85c4f8a2a9ad7c7d4b092003144d36391a06c004bd8237e0a8a1b2",
+          "sha256": "5d43dacd1fd9513809a7fd2bdac012f2ebcc1f12fbdf46e9bd71505acd1af57b",
+          "sha1": "14125f14503c3207e9b549e1e614484482f46ed2",
+          "md5": "935ec9284adecabec8a50419e68f7f36"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pdfium-android-zqy_mod_1.0.0-javadoc.jar",
+          "url": "pdfium-android-zqy_mod_1.0.0-javadoc.jar",
+          "size": 313397,
+          "sha512": "69ef43e66d0105d93a3d8203538aad9da2d719fe62e80df0a871779cb4a34a91fcc4b4e2e2023df0dcf6a0038316ce92e607bb04914342886a22ebbeaa313987",
+          "sha256": "9dfe0f5ed5749b1d5977fee798808991f8186f5f8508c8be6c8bc6dafc7e28bf",
+          "sha1": "01991ac72535014013edf73b5ec1c4dea631b3e7",
+          "md5": "50627d28aa76cce2d32b313f835eee80"
+        }
+      ]
+    }
+  ]
+}
