@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.abdeveloper",
+    "module": "multi-select-dialog-v21",
+    "version": "zqy_mod_1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "multi-select-dialog-v21-zqy_mod_1.0.0.aar",
+          "url": "multi-select-dialog-v21-zqy_mod_1.0.0.aar",
+          "size": 16525,
+          "sha512": "cd019dc6dd8f699f603ebb0abc13d575c3b5fbe3759134f1a7ea2f74811bb88cfbf7cf96d87f52358092548c6dd32c54ffcfadff188553c4643fa14275be2752",
+          "sha256": "831afe3f1c8e3732e63d9838811c95c427a17ad3877fd3cc87add9ce2e62b6f9",
+          "sha1": "f6c307bc6264e496b2cddacb310a3140401f855b",
+          "md5": "4478fde351b6c148cbe8ceea1c4f2cd1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-bom",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.3.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multi-select-dialog-v21-zqy_mod_1.0.0.aar",
+          "url": "multi-select-dialog-v21-zqy_mod_1.0.0.aar",
+          "size": 16525,
+          "sha512": "cd019dc6dd8f699f603ebb0abc13d575c3b5fbe3759134f1a7ea2f74811bb88cfbf7cf96d87f52358092548c6dd32c54ffcfadff188553c4643fa14275be2752",
+          "sha256": "831afe3f1c8e3732e63d9838811c95c427a17ad3877fd3cc87add9ce2e62b6f9",
+          "sha1": "f6c307bc6264e496b2cddacb310a3140401f855b",
+          "md5": "4478fde351b6c148cbe8ceea1c4f2cd1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "multi-select-dialog-v21-zqy_mod_1.0.0-sources.jar",
+          "url": "multi-select-dialog-v21-zqy_mod_1.0.0-sources.jar",
+          "size": 6562,
+          "sha512": "d1ec8a6bc975252de3b2406174a2dd6e54011ee55ff1bb1c7a5f23c218ea1383d7807a0aafa875224677af566780fe243bdc4da7f40470a2a1cbd7c260f86b79",
+          "sha256": "f6afd772be0d34ce17c6ce6d228c9bfc5c53bafbd8e063f67f46b6fd3897f2dd",
+          "sha1": "cb303fe68232e6d557e5b8369073c6f638c551a6",
+          "md5": "fe30cf6eb5c83b126c226feadedc9e21"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "multi-select-dialog-v21-zqy_mod_1.0.0-javadoc.jar",
+          "url": "multi-select-dialog-v21-zqy_mod_1.0.0-javadoc.jar",
+          "size": 332766,
+          "sha512": "b55d2b0fc734cf6e9baca0e434593e8723dd112ff905aee23bb28a4da9328e20d80d6a980a591c326551cbfda57f7a91149f97b43d1fa6e48026b93b4f41324c",
+          "sha256": "45db2ae2430bb4c1ff0915352d1859e98126f2e6d7e33a85170385047536fd38",
+          "sha1": "1cd0e4fe8d02ff1f683d8901d8f41ed03a3bd906",
+          "md5": "e75c44df0692c6eef5cc8e73cbe6362e"
+        }
+      ]
+    }
+  ]
+}
