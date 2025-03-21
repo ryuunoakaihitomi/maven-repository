@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.arthenica",
+    "module": "ffmpeg-kit-audio",
+    "version": "6.0-2.LTS",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.arthenica",
+          "module": "smart-exception-java",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ffmpeg-kit-audio-6.0-2.LTS.aar",
+          "url": "ffmpeg-kit-audio-6.0-2.LTS.aar",
+          "size": 47332348,
+          "sha512": "97d07ae87f299bde15efcde96f4c0f1b9b3e32535701009e6be841b2c6ce2c9588b52ecfc0d464ed69dca5c53ebb25c35846b977fe9203787c33ed1ebb819830",
+          "sha256": "774371e1131da4dba503544d0b66778d164faa680e8d0eb97db88d508fcd34b7",
+          "sha1": "f1ec54fae8e9cd983413972644c2d65f43c78a64",
+          "md5": "62a8d7da414fe2519b9fdfa6bb78f182"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.arthenica",
+          "module": "smart-exception-java",
+          "version": {
+            "requires": "0.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ffmpeg-kit-audio-6.0-2.LTS.aar",
+          "url": "ffmpeg-kit-audio-6.0-2.LTS.aar",
+          "size": 47332348,
+          "sha512": "97d07ae87f299bde15efcde96f4c0f1b9b3e32535701009e6be841b2c6ce2c9588b52ecfc0d464ed69dca5c53ebb25c35846b977fe9203787c33ed1ebb819830",
+          "sha256": "774371e1131da4dba503544d0b66778d164faa680e8d0eb97db88d508fcd34b7",
+          "sha1": "f1ec54fae8e9cd983413972644c2d65f43c78a64",
+          "md5": "62a8d7da414fe2519b9fdfa6bb78f182"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ffmpeg-kit-audio-6.0-2.LTS-sources.jar",
+          "url": "ffmpeg-kit-audio-6.0-2.LTS-sources.jar",
+          "size": 52797,
+          "sha512": "e2b5124008aa5438c3477ae1d1f5b1e9d3b0f13f513e1b6d458c3ec5d25a52400a5abd5bc1535929bfff042625a7ebd4281fc3f93e95261f6a55dfe0b28993cb",
+          "sha256": "0a3a53d0bb9fa75341c610fefc54590e99f735e60d56916a3509ac3051ac3b00",
+          "sha1": "767e676594e638b42e22aceedce743da8eab9a3f",
+          "md5": "a866d207fad8b7ceb28e5d46d407189d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ffmpeg-kit-audio-6.0-2.LTS-javadoc.jar",
+          "url": "ffmpeg-kit-audio-6.0-2.LTS-javadoc.jar",
+          "size": 415415,
+          "sha512": "b64fea84792e8bbbd7cde87728aa48fd37a156bd704a028e2a69d51b3f846f96e6d66955180c6a07d82f9fa74763d503e481a44f7438fe3da921812feb1ff949",
+          "sha256": "d31162f064d6abc301944feb0805167d351863d8de02bef6989f3c5e0371b6d6",
+          "sha1": "3281da160fa58ba200eb6779ba525992a5bc218f",
+          "md5": "020a808a7a2e4583ed14e9eaadb02c78"
+        }
+      ]
+    }
+  ]
+}

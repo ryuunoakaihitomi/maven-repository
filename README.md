@@ -26,3 +26,7 @@ dependencies {
 * [PdfiumAndroid](https://github.com/ryuunoakaihitomi/PdfiumAndroid)
 * [AndroidPdfViewer](https://github.com/ryuunoakaihitomi/AndroidPdfViewer)
 * [Android-Multi-Select-Dialog](https://github.com/ryuunoakaihitomi/Android-Multi-Select-Dialog)
+
+# Backup libraries
+
+* [FFmpegKit](https://github.com/arthenica/ffmpeg-kit) `Audio`
